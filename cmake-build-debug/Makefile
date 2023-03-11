@@ -141,6 +141,33 @@ c_pr/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/build
 .PHONY : c_pr/fast
 
+1/1.3/text1.3.obj: 1/1.3/text1.3.c.obj
+
+.PHONY : 1/1.3/text1.3.obj
+
+# target to build an object file
+1/1.3/text1.3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/1/1.3/text1.3.c.obj
+.PHONY : 1/1.3/text1.3.c.obj
+
+1/1.3/text1.3.i: 1/1.3/text1.3.c.i
+
+.PHONY : 1/1.3/text1.3.i
+
+# target to preprocess a source file
+1/1.3/text1.3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/1/1.3/text1.3.c.i
+.PHONY : 1/1.3/text1.3.c.i
+
+1/1.3/text1.3.s: 1/1.3/text1.3.c.s
+
+.PHONY : 1/1.3/text1.3.s
+
+# target to generate assembly for a file
+1/1.3/text1.3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/1/1.3/text1.3.c.s
+.PHONY : 1/1.3/text1.3.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -177,6 +204,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... c_pr
+	@echo ... 1/1.3/text1.3.obj
+	@echo ... 1/1.3/text1.3.i
+	@echo ... 1/1.3/text1.3.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
