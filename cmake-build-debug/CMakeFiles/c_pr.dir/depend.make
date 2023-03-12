@@ -4,6 +4,9 @@
 CMakeFiles/c_pr.dir/1/1.3/text1.3.c.obj: ../1/1.3/text1.3.c
 CMakeFiles/c_pr.dir/1/1.3/text1.3.c.obj: ../1/1.3/text1.3.h
 
-CMakeFiles/c_pr.dir/main.c.obj: ../1/1.3/text1.3.h
+CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.obj: ../2/2.1/symbolic/symbolic.c
+CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.obj: ../2/2.1/symbolic/symbolic.h
+
+CMakeFiles/c_pr.dir/main.c.obj: ../2/2.1/symbolic/symbolic.h
 CMakeFiles/c_pr.dir/main.c.obj: ../main.c
 

@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
-E:/code/c pr/1/1.3/text1.3.c
-text1.3.h
-E:/code/c pr/1/1.3/text1.3.h
+E:/code/c pr/2/2.1/symbolic/symbolic.c
+symbolic.h
+E:/code/c pr/2/2.1/symbolic/symbolic.h
 
-E:/code/c pr/1/1.3/text1.3.h
+E:/code/c pr/2/2.1/symbolic/symbolic.h
+stdio.h
+-
 
 E:/code/c pr/main.c
 stdio.h
 -
-./1/1.3/text1.3.h
-E:/code/c pr/1/1.3/text1.3.h
+./2/2.1/symbolic/symbolic.h
+E:/code/c pr/2/2.1/symbolic/symbolic.h
 

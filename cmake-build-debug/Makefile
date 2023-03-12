@@ -168,6 +168,33 @@ c_pr/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/1/1.3/text1.3.c.s
 .PHONY : 1/1.3/text1.3.c.s
 
+2/2.1/symbolic/symbolic.obj: 2/2.1/symbolic/symbolic.c.obj
+
+.PHONY : 2/2.1/symbolic/symbolic.obj
+
+# target to build an object file
+2/2.1/symbolic/symbolic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.obj
+.PHONY : 2/2.1/symbolic/symbolic.c.obj
+
+2/2.1/symbolic/symbolic.i: 2/2.1/symbolic/symbolic.c.i
+
+.PHONY : 2/2.1/symbolic/symbolic.i
+
+# target to preprocess a source file
+2/2.1/symbolic/symbolic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.i
+.PHONY : 2/2.1/symbolic/symbolic.c.i
+
+2/2.1/symbolic/symbolic.s: 2/2.1/symbolic/symbolic.c.s
+
+.PHONY : 2/2.1/symbolic/symbolic.s
+
+# target to generate assembly for a file
+2/2.1/symbolic/symbolic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.s
+.PHONY : 2/2.1/symbolic/symbolic.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -207,6 +234,9 @@ help:
 	@echo ... 1/1.3/text1.3.obj
 	@echo ... 1/1.3/text1.3.i
 	@echo ... 1/1.3/text1.3.s
+	@echo ... 2/2.1/symbolic/symbolic.obj
+	@echo ... 2/2.1/symbolic/symbolic.i
+	@echo ... 2/2.1/symbolic/symbolic.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
