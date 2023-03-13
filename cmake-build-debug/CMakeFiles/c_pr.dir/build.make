@@ -88,31 +88,31 @@ CMakeFiles/c_pr.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_pr.dir/main.c.s"
 	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\code\c pr\main.c" -o CMakeFiles\c_pr.dir\main.c.s
 
-CMakeFiles/c_pr.dir/1/1.3/text1.3.c.obj: CMakeFiles/c_pr.dir/flags.make
-CMakeFiles/c_pr.dir/1/1.3/text1.3.c.obj: ../1/1.3/text1.3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\code\c pr\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/c_pr.dir/1/1.3/text1.3.c.obj"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_pr.dir\1\1.3\text1.3.c.obj -c "E:\code\c pr\1\1.3\text1.3.c"
+CMakeFiles/c_pr.dir/1/text1.3.c.obj: CMakeFiles/c_pr.dir/flags.make
+CMakeFiles/c_pr.dir/1/text1.3.c.obj: ../1/text1.3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\code\c pr\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/c_pr.dir/1/text1.3.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_pr.dir\1\text1.3.c.obj -c "E:\code\c pr\1\text1.3.c"
 
-CMakeFiles/c_pr.dir/1/1.3/text1.3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_pr.dir/1/1.3/text1.3.c.i"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\code\c pr\1\1.3\text1.3.c" > CMakeFiles\c_pr.dir\1\1.3\text1.3.c.i
+CMakeFiles/c_pr.dir/1/text1.3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_pr.dir/1/text1.3.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\code\c pr\1\text1.3.c" > CMakeFiles\c_pr.dir\1\text1.3.c.i
 
-CMakeFiles/c_pr.dir/1/1.3/text1.3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_pr.dir/1/1.3/text1.3.c.s"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\code\c pr\1\1.3\text1.3.c" -o CMakeFiles\c_pr.dir\1\1.3\text1.3.c.s
+CMakeFiles/c_pr.dir/1/text1.3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_pr.dir/1/text1.3.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\code\c pr\1\text1.3.c" -o CMakeFiles\c_pr.dir\1\text1.3.c.s
 
-CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.obj: CMakeFiles/c_pr.dir/flags.make
-CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.obj: ../2/2.1/symbolic/symbolic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\code\c pr\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.obj"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_pr.dir\2\2.1\symbolic\symbolic.c.obj -c "E:\code\c pr\2\2.1\symbolic\symbolic.c"
+CMakeFiles/c_pr.dir/2/symbolic.c.obj: CMakeFiles/c_pr.dir/flags.make
+CMakeFiles/c_pr.dir/2/symbolic.c.obj: ../2/symbolic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\code\c pr\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/c_pr.dir/2/symbolic.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_pr.dir\2\symbolic.c.obj -c "E:\code\c pr\2\symbolic.c"
 
-CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.i"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\code\c pr\2\2.1\symbolic\symbolic.c" > CMakeFiles\c_pr.dir\2\2.1\symbolic\symbolic.c.i
+CMakeFiles/c_pr.dir/2/symbolic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_pr.dir/2/symbolic.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\code\c pr\2\symbolic.c" > CMakeFiles\c_pr.dir\2\symbolic.c.i
 
-CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.s"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\code\c pr\2\2.1\symbolic\symbolic.c" -o CMakeFiles\c_pr.dir\2\2.1\symbolic\symbolic.c.s
+CMakeFiles/c_pr.dir/2/symbolic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_pr.dir/2/symbolic.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\code\c pr\2\symbolic.c" -o CMakeFiles\c_pr.dir\2\symbolic.c.s
 
 CMakeFiles/c_pr.dir/3/operator.c.obj: CMakeFiles/c_pr.dir/flags.make
 CMakeFiles/c_pr.dir/3/operator.c.obj: ../3/operator.c
@@ -127,25 +127,55 @@ CMakeFiles/c_pr.dir/3/operator.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_pr.dir/3/operator.c.s"
 	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\code\c pr\3\operator.c" -o CMakeFiles\c_pr.dir\3\operator.c.s
 
+CMakeFiles/c_pr.dir/4/cycle.c.obj: CMakeFiles/c_pr.dir/flags.make
+CMakeFiles/c_pr.dir/4/cycle.c.obj: ../4/cycle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\code\c pr\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/c_pr.dir/4/cycle.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_pr.dir\4\cycle.c.obj -c "E:\code\c pr\4\cycle.c"
+
+CMakeFiles/c_pr.dir/4/cycle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_pr.dir/4/cycle.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\code\c pr\4\cycle.c" > CMakeFiles\c_pr.dir\4\cycle.c.i
+
+CMakeFiles/c_pr.dir/4/cycle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_pr.dir/4/cycle.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\code\c pr\4\cycle.c" -o CMakeFiles\c_pr.dir\4\cycle.c.s
+
+CMakeFiles/c_pr.dir/5/array.c.obj: CMakeFiles/c_pr.dir/flags.make
+CMakeFiles/c_pr.dir/5/array.c.obj: ../5/array.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\code\c pr\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/c_pr.dir/5/array.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_pr.dir\5\array.c.obj -c "E:\code\c pr\5\array.c"
+
+CMakeFiles/c_pr.dir/5/array.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_pr.dir/5/array.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\code\c pr\5\array.c" > CMakeFiles\c_pr.dir\5\array.c.i
+
+CMakeFiles/c_pr.dir/5/array.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_pr.dir/5/array.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\code\c pr\5\array.c" -o CMakeFiles\c_pr.dir\5\array.c.s
+
 # Object files for target c_pr
 c_pr_OBJECTS = \
 "CMakeFiles/c_pr.dir/main.c.obj" \
-"CMakeFiles/c_pr.dir/1/1.3/text1.3.c.obj" \
-"CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.obj" \
-"CMakeFiles/c_pr.dir/3/operator.c.obj"
+"CMakeFiles/c_pr.dir/1/text1.3.c.obj" \
+"CMakeFiles/c_pr.dir/2/symbolic.c.obj" \
+"CMakeFiles/c_pr.dir/3/operator.c.obj" \
+"CMakeFiles/c_pr.dir/4/cycle.c.obj" \
+"CMakeFiles/c_pr.dir/5/array.c.obj"
 
 # External object files for target c_pr
 c_pr_EXTERNAL_OBJECTS =
 
 c_pr.exe: CMakeFiles/c_pr.dir/main.c.obj
-c_pr.exe: CMakeFiles/c_pr.dir/1/1.3/text1.3.c.obj
-c_pr.exe: CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.obj
+c_pr.exe: CMakeFiles/c_pr.dir/1/text1.3.c.obj
+c_pr.exe: CMakeFiles/c_pr.dir/2/symbolic.c.obj
 c_pr.exe: CMakeFiles/c_pr.dir/3/operator.c.obj
+c_pr.exe: CMakeFiles/c_pr.dir/4/cycle.c.obj
+c_pr.exe: CMakeFiles/c_pr.dir/5/array.c.obj
 c_pr.exe: CMakeFiles/c_pr.dir/build.make
 c_pr.exe: CMakeFiles/c_pr.dir/linklibs.rsp
 c_pr.exe: CMakeFiles/c_pr.dir/objects1.rsp
 c_pr.exe: CMakeFiles/c_pr.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\code\c pr\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable c_pr.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\code\c pr\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable c_pr.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\c_pr.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

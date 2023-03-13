@@ -33,12 +33,7 @@ void cast(){
     printf("5.0/2 is %f\n",5.0/2);
 }
 
-void Conversion(){
-//    printf("The binary of %d is %s\n",123,convert_to_binary(123));
-    int i=123;//八进制前加0//十六进制前加0x
-    printf("The octal of %d is %o\n",123,i);
-    printf("The hexadecimal of %d is %x\n",123,123);
-}
+
 
 void use_of_scanf(){
     int i =0;
@@ -54,19 +49,36 @@ void use_of_scanf(){
     printf("%d,%c,%f",i,c,f);
 }
 
-//char* convert_to_binary(int num){
-//    char* s="";
-//    int temp=0;
-//    while(num!=0){
-//        temp = num%2;
-//        if(temp){
-//            s=strcat("1",s);
-//        }
-//        else
-//        {
-//            s=strcat("0",s);
-//        }
-//        num=num/2;
-//    }
-//    return s;
-//}
+char* convert_to_binary(int num,char s[]){
+    int temp=0;
+    while(num!=0){
+        temp = num%2;
+        if(temp){
+            s[strlen(s)+1]='\0';
+            for(int i=strlen(s);i>0;i--)
+            {
+                s[i]=s[i-1];
+            }
+            s[0]='1';
+        }
+        else
+        {
+            s[strlen(s)+1]='\0';
+            for(int i=strlen(s);i>0;i--)
+            {
+                s[i]=s[i-1];
+            }
+            s[0]='0';
+        }
+        num=num/2;
+    }
+    return s;
+}
+void Conversion(){
+    char s[100]="";
+    convert_to_binary(64,s);
+    printf("The binary of %d is %s\n",123,s);
+    int i=123;//八进制前加0//十六进制前加0x
+    printf("The octal of %d is %o\n",123,i);
+    printf("The hexadecimal of %d is %x\n",123,123);
+}

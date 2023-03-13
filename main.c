@@ -1,10 +1,11 @@
 #include <stdio.h>
-#include "./1/1.3/text1.3.h"
-#include "./2/2.1/symbolic/symbolic.h"
+#include "1/text1.3.h"
+#include "2/symbolic.h"
 #include "./3/operator.h"
+#include "./4/cycle.h"
+#include "./5/array.h"
 
 int main() {
-    short_circuit();
+    Conversion();
     return 0;
-
 }

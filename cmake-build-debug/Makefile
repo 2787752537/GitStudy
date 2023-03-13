@@ -141,59 +141,59 @@ c_pr/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/build
 .PHONY : c_pr/fast
 
-1/1.3/text1.3.obj: 1/1.3/text1.3.c.obj
+1/text1.3.obj: 1/text1.3.c.obj
 
-.PHONY : 1/1.3/text1.3.obj
-
-# target to build an object file
-1/1.3/text1.3.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/1/1.3/text1.3.c.obj
-.PHONY : 1/1.3/text1.3.c.obj
-
-1/1.3/text1.3.i: 1/1.3/text1.3.c.i
-
-.PHONY : 1/1.3/text1.3.i
-
-# target to preprocess a source file
-1/1.3/text1.3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/1/1.3/text1.3.c.i
-.PHONY : 1/1.3/text1.3.c.i
-
-1/1.3/text1.3.s: 1/1.3/text1.3.c.s
-
-.PHONY : 1/1.3/text1.3.s
-
-# target to generate assembly for a file
-1/1.3/text1.3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/1/1.3/text1.3.c.s
-.PHONY : 1/1.3/text1.3.c.s
-
-2/2.1/symbolic/symbolic.obj: 2/2.1/symbolic/symbolic.c.obj
-
-.PHONY : 2/2.1/symbolic/symbolic.obj
+.PHONY : 1/text1.3.obj
 
 # target to build an object file
-2/2.1/symbolic/symbolic.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.obj
-.PHONY : 2/2.1/symbolic/symbolic.c.obj
+1/text1.3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/1/text1.3.c.obj
+.PHONY : 1/text1.3.c.obj
 
-2/2.1/symbolic/symbolic.i: 2/2.1/symbolic/symbolic.c.i
+1/text1.3.i: 1/text1.3.c.i
 
-.PHONY : 2/2.1/symbolic/symbolic.i
+.PHONY : 1/text1.3.i
 
 # target to preprocess a source file
-2/2.1/symbolic/symbolic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.i
-.PHONY : 2/2.1/symbolic/symbolic.c.i
+1/text1.3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/1/text1.3.c.i
+.PHONY : 1/text1.3.c.i
 
-2/2.1/symbolic/symbolic.s: 2/2.1/symbolic/symbolic.c.s
+1/text1.3.s: 1/text1.3.c.s
 
-.PHONY : 2/2.1/symbolic/symbolic.s
+.PHONY : 1/text1.3.s
 
 # target to generate assembly for a file
-2/2.1/symbolic/symbolic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.s
-.PHONY : 2/2.1/symbolic/symbolic.c.s
+1/text1.3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/1/text1.3.c.s
+.PHONY : 1/text1.3.c.s
+
+2/symbolic.obj: 2/symbolic.c.obj
+
+.PHONY : 2/symbolic.obj
+
+# target to build an object file
+2/symbolic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/2/symbolic.c.obj
+.PHONY : 2/symbolic.c.obj
+
+2/symbolic.i: 2/symbolic.c.i
+
+.PHONY : 2/symbolic.i
+
+# target to preprocess a source file
+2/symbolic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/2/symbolic.c.i
+.PHONY : 2/symbolic.c.i
+
+2/symbolic.s: 2/symbolic.c.s
+
+.PHONY : 2/symbolic.s
+
+# target to generate assembly for a file
+2/symbolic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/2/symbolic.c.s
+.PHONY : 2/symbolic.c.s
 
 3/operator.obj: 3/operator.c.obj
 
@@ -221,6 +221,60 @@ c_pr/fast:
 3/operator.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/3/operator.c.s
 .PHONY : 3/operator.c.s
+
+4/cycle.obj: 4/cycle.c.obj
+
+.PHONY : 4/cycle.obj
+
+# target to build an object file
+4/cycle.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/4/cycle.c.obj
+.PHONY : 4/cycle.c.obj
+
+4/cycle.i: 4/cycle.c.i
+
+.PHONY : 4/cycle.i
+
+# target to preprocess a source file
+4/cycle.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/4/cycle.c.i
+.PHONY : 4/cycle.c.i
+
+4/cycle.s: 4/cycle.c.s
+
+.PHONY : 4/cycle.s
+
+# target to generate assembly for a file
+4/cycle.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/4/cycle.c.s
+.PHONY : 4/cycle.c.s
+
+5/array.obj: 5/array.c.obj
+
+.PHONY : 5/array.obj
+
+# target to build an object file
+5/array.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/5/array.c.obj
+.PHONY : 5/array.c.obj
+
+5/array.i: 5/array.c.i
+
+.PHONY : 5/array.i
+
+# target to preprocess a source file
+5/array.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/5/array.c.i
+.PHONY : 5/array.c.i
+
+5/array.s: 5/array.c.s
+
+.PHONY : 5/array.s
+
+# target to generate assembly for a file
+5/array.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/5/array.c.s
+.PHONY : 5/array.c.s
 
 main.obj: main.c.obj
 
@@ -258,15 +312,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... c_pr
-	@echo ... 1/1.3/text1.3.obj
-	@echo ... 1/1.3/text1.3.i
-	@echo ... 1/1.3/text1.3.s
-	@echo ... 2/2.1/symbolic/symbolic.obj
-	@echo ... 2/2.1/symbolic/symbolic.i
-	@echo ... 2/2.1/symbolic/symbolic.s
+	@echo ... 1/text1.3.obj
+	@echo ... 1/text1.3.i
+	@echo ... 1/text1.3.s
+	@echo ... 2/symbolic.obj
+	@echo ... 2/symbolic.i
+	@echo ... 2/symbolic.s
 	@echo ... 3/operator.obj
 	@echo ... 3/operator.i
 	@echo ... 3/operator.s
+	@echo ... 4/cycle.obj
+	@echo ... 4/cycle.i
+	@echo ... 4/cycle.s
+	@echo ... 5/array.obj
+	@echo ... 5/array.i
+	@echo ... 5/array.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

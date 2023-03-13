@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c_pr.dir/1/1.3/text1.3.c.obj"
-  "CMakeFiles/c_pr.dir/2/2.1/symbolic/symbolic.c.obj"
+  "CMakeFiles/c_pr.dir/1/text1.3.c.obj"
+  "CMakeFiles/c_pr.dir/2/symbolic.c.obj"
   "CMakeFiles/c_pr.dir/3/operator.c.obj"
+  "CMakeFiles/c_pr.dir/4/cycle.c.obj"
+  "CMakeFiles/c_pr.dir/5/array.c.obj"
   "CMakeFiles/c_pr.dir/main.c.obj"
   "c_pr.exe"
   "c_pr.exe.manifest"
