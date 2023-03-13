@@ -4,7 +4,7 @@
 //符号常量
 #ifndef C_PR_SYMBOLIC_H
 #define C_PR_SYMBOLIC_H
-
+#include <string.h>
 #include <stdio.h>
 #define PI 3.14
 int circle_area(int r);
