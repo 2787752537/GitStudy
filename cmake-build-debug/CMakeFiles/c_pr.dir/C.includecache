@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/code/c pr/2/2.1/symbolic/symbolic.c
-symbolic.h
-E:/code/c pr/2/2.1/symbolic/symbolic.h
+E:/code/c pr/3/operator.c
+operator.h
+E:/code/c pr/3/operator.h
 
-E:/code/c pr/2/2.1/symbolic/symbolic.h
+E:/code/c pr/3/operator.h
 stdio.h
 -
-
-E:/code/c pr/main.c
-stdio.h
--
-./2/2.1/symbolic/symbolic.h
-E:/code/c pr/2/2.1/symbolic/symbolic.h
 

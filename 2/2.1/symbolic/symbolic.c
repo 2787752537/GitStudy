@@ -32,22 +32,6 @@ void cast(){
     printf("(float)5/2 is %f\n",(float)5/2);
     printf("5.0/2 is %f\n",5.0/2);
 }
-//char* convert_to_binary(int num){
-//    char* s="";
-//    int temp=0;
-//    while(num!=0){
-//        temp = num%2;
-//        if(temp){
-//            s=strcat("1",s);
-//        }
-//        else
-//        {
-//            s=strcat("0",s);
-//        }
-//        num=num/2;
-//    }
-//    return s;
-//}
 
 void Conversion(){
 //    printf("The binary of %d is %s\n",123,convert_to_binary(123));
@@ -69,3 +53,20 @@ void use_of_scanf(){
     scanf("%d %c%f",&i,&c,&f);//ret表示读取成功的个数，%c前面加空格
     printf("%d,%c,%f",i,c,f);
 }
+
+//char* convert_to_binary(int num){
+//    char* s="";
+//    int temp=0;
+//    while(num!=0){
+//        temp = num%2;
+//        if(temp){
+//            s=strcat("1",s);
+//        }
+//        else
+//        {
+//            s=strcat("0",s);
+//        }
+//        num=num/2;
+//    }
+//    return s;
+//}

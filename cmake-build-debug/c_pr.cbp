@@ -86,6 +86,12 @@
 		<Unit filename="E:/code/c pr/2/2.1/symbolic/symbolic.h">
 			<Option target="c_pr"/>
 		</Unit>
+		<Unit filename="E:/code/c pr/3/operator.c">
+			<Option target="c_pr"/>
+		</Unit>
+		<Unit filename="E:/code/c pr/3/operator.h">
+			<Option target="c_pr"/>
+		</Unit>
 		<Unit filename="E:/code/c pr/main.c">
 			<Option target="c_pr"/>
 		</Unit>
