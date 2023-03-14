@@ -75,10 +75,10 @@ char* convert_to_binary(int num,char s[]){
     return s;
 }
 void Conversion(){
+    int num = 64; //八进制前加0//十六进制前加0x
     char s[100]="";
-    convert_to_binary(64,s);
-    printf("The binary of %d is %s\n",123,s);
-    int i=123;//八进制前加0//十六进制前加0x
-    printf("The octal of %d is %o\n",123,i);
-    printf("The hexadecimal of %d is %x\n",123,123);
+    convert_to_binary(num,s);
+    printf("The binary of %d is %s\n",num,s);
+    printf("The octal of %d is %o\n",num,num);
+    printf("The hexadecimal of %d is %x\n",num,num);
 }

@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/c_pr.dir/3/operator.c.obj"
   "CMakeFiles/c_pr.dir/4/cycle.c.obj"
   "CMakeFiles/c_pr.dir/5/array.c.obj"
+  "CMakeFiles/c_pr.dir/6/pointer.c.obj"
+  "CMakeFiles/c_pr.dir/algorithm_exercise/1605.c.obj"
   "CMakeFiles/c_pr.dir/main.c.obj"
   "c_pr.exe"
   "c_pr.exe.manifest"

@@ -276,6 +276,60 @@ c_pr/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/5/array.c.s
 .PHONY : 5/array.c.s
 
+6/pointer.obj: 6/pointer.c.obj
+
+.PHONY : 6/pointer.obj
+
+# target to build an object file
+6/pointer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/6/pointer.c.obj
+.PHONY : 6/pointer.c.obj
+
+6/pointer.i: 6/pointer.c.i
+
+.PHONY : 6/pointer.i
+
+# target to preprocess a source file
+6/pointer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/6/pointer.c.i
+.PHONY : 6/pointer.c.i
+
+6/pointer.s: 6/pointer.c.s
+
+.PHONY : 6/pointer.s
+
+# target to generate assembly for a file
+6/pointer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/6/pointer.c.s
+.PHONY : 6/pointer.c.s
+
+algorithm_exercise/1605.obj: algorithm_exercise/1605.c.obj
+
+.PHONY : algorithm_exercise/1605.obj
+
+# target to build an object file
+algorithm_exercise/1605.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/algorithm_exercise/1605.c.obj
+.PHONY : algorithm_exercise/1605.c.obj
+
+algorithm_exercise/1605.i: algorithm_exercise/1605.c.i
+
+.PHONY : algorithm_exercise/1605.i
+
+# target to preprocess a source file
+algorithm_exercise/1605.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/algorithm_exercise/1605.c.i
+.PHONY : algorithm_exercise/1605.c.i
+
+algorithm_exercise/1605.s: algorithm_exercise/1605.c.s
+
+.PHONY : algorithm_exercise/1605.s
+
+# target to generate assembly for a file
+algorithm_exercise/1605.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/algorithm_exercise/1605.c.s
+.PHONY : algorithm_exercise/1605.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -327,6 +381,12 @@ help:
 	@echo ... 5/array.obj
 	@echo ... 5/array.i
 	@echo ... 5/array.s
+	@echo ... 6/pointer.obj
+	@echo ... 6/pointer.i
+	@echo ... 6/pointer.s
+	@echo ... algorithm_exercise/1605.obj
+	@echo ... algorithm_exercise/1605.i
+	@echo ... algorithm_exercise/1605.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

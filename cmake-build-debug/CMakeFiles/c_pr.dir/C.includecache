@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-E:/code/c pr/2/symbolic.c
-symbolic.h
-E:/code/c pr/2/symbolic.h
+E:/code/c pr/algorithm_exercise/1605.c
+1605.h
+E:/code/c pr/algorithm_exercise/1605.h
 
-E:/code/c pr/2/symbolic.h
-string.h
--
+E:/code/c pr/algorithm_exercise/1605.h
 stdio.h
+-
+stdlib.h
+-
+string.h
 -
 
