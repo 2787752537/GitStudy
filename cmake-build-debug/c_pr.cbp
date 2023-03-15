@@ -110,6 +110,18 @@
 		<Unit filename="E:/code/c pr/6/pointer.h">
 			<Option target="c_pr"/>
 		</Unit>
+		<Unit filename="E:/code/c pr/7/recurrence .c">
+			<Option target="c_pr"/>
+		</Unit>
+		<Unit filename="E:/code/c pr/7/recurrence .h">
+			<Option target="c_pr"/>
+		</Unit>
+		<Unit filename="E:/code/c pr/8/struct_text.c">
+			<Option target="c_pr"/>
+		</Unit>
+		<Unit filename="E:/code/c pr/8/struct_text.h">
+			<Option target="c_pr"/>
+		</Unit>
 		<Unit filename="E:/code/c pr/algorithm_exercise/1605.c">
 			<Option target="c_pr"/>
 		</Unit>

@@ -303,6 +303,60 @@ c_pr/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/6/pointer.c.s
 .PHONY : 6/pointer.c.s
 
+7/recurrence_.obj: 7/recurrence_.c.obj
+
+.PHONY : 7/recurrence_.obj
+
+# target to build an object file
+7/recurrence_.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/7/recurrence_.c.obj
+.PHONY : 7/recurrence_.c.obj
+
+7/recurrence_.i: 7/recurrence_.c.i
+
+.PHONY : 7/recurrence_.i
+
+# target to preprocess a source file
+7/recurrence_.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/7/recurrence_.c.i
+.PHONY : 7/recurrence_.c.i
+
+7/recurrence_.s: 7/recurrence_.c.s
+
+.PHONY : 7/recurrence_.s
+
+# target to generate assembly for a file
+7/recurrence_.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/7/recurrence_.c.s
+.PHONY : 7/recurrence_.c.s
+
+8/struct_text.obj: 8/struct_text.c.obj
+
+.PHONY : 8/struct_text.obj
+
+# target to build an object file
+8/struct_text.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/8/struct_text.c.obj
+.PHONY : 8/struct_text.c.obj
+
+8/struct_text.i: 8/struct_text.c.i
+
+.PHONY : 8/struct_text.i
+
+# target to preprocess a source file
+8/struct_text.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/8/struct_text.c.i
+.PHONY : 8/struct_text.c.i
+
+8/struct_text.s: 8/struct_text.c.s
+
+.PHONY : 8/struct_text.s
+
+# target to generate assembly for a file
+8/struct_text.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/8/struct_text.c.s
+.PHONY : 8/struct_text.c.s
+
 algorithm_exercise/1605.obj: algorithm_exercise/1605.c.obj
 
 .PHONY : algorithm_exercise/1605.obj
@@ -384,6 +438,12 @@ help:
 	@echo ... 6/pointer.obj
 	@echo ... 6/pointer.i
 	@echo ... 6/pointer.s
+	@echo ... 7/recurrence_.obj
+	@echo ... 7/recurrence_.i
+	@echo ... 7/recurrence_.s
+	@echo ... 8/struct_text.obj
+	@echo ... 8/struct_text.i
+	@echo ... 8/struct_text.s
 	@echo ... algorithm_exercise/1605.obj
 	@echo ... algorithm_exercise/1605.i
 	@echo ... algorithm_exercise/1605.s

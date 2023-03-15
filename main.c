@@ -6,8 +6,10 @@
 #include "./4/cycle.h"
 #include "./5/array.h"
 #include "./6/pointer.h"
+#include "./7/recurrence .h"
+#include "./8/struct_text.h"
 
 int main() {
-    text_1605();
+    struct_t();
     return 0;
 }

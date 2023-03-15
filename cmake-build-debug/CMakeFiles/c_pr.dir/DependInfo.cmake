@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/code/c pr/4/cycle.c" "E:/code/c pr/cmake-build-debug/CMakeFiles/c_pr.dir/4/cycle.c.obj"
   "E:/code/c pr/5/array.c" "E:/code/c pr/cmake-build-debug/CMakeFiles/c_pr.dir/5/array.c.obj"
   "E:/code/c pr/6/pointer.c" "E:/code/c pr/cmake-build-debug/CMakeFiles/c_pr.dir/6/pointer.c.obj"
+  "E:/code/c pr/7/recurrence .c" "E:/code/c pr/cmake-build-debug/CMakeFiles/c_pr.dir/7/recurrence_.c.obj"
+  "E:/code/c pr/8/struct_text.c" "E:/code/c pr/cmake-build-debug/CMakeFiles/c_pr.dir/8/struct_text.c.obj"
   "E:/code/c pr/algorithm_exercise/1605.c" "E:/code/c pr/cmake-build-debug/CMakeFiles/c_pr.dir/algorithm_exercise/1605.c.obj"
   "E:/code/c pr/main.c" "E:/code/c pr/cmake-build-debug/CMakeFiles/c_pr.dir/main.c.obj"
   )
