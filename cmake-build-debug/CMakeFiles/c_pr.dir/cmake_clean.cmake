@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/c_pr.dir/8/struct_text.c.obj"
   "CMakeFiles/c_pr.dir/algorithm_exercise/1605.c.obj"
   "CMakeFiles/c_pr.dir/main.c.obj"
+  "CMakeFiles/c_pr.dir/text/text.c.obj"
   "c_pr.exe"
   "c_pr.exe.manifest"
   "c_pr.pdb"

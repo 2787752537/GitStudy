@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "./algorithm_exercise/1605.h"
+#include "./text/text.h"
 #include "1/text1.3.h"
 #include "2/symbolic.h"
 #include "./3/operator.h"

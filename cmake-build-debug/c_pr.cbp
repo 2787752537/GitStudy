@@ -131,6 +131,12 @@
 		<Unit filename="E:/code/c pr/main.c">
 			<Option target="c_pr"/>
 		</Unit>
+		<Unit filename="E:/code/c pr/text/text.c">
+			<Option target="c_pr"/>
+		</Unit>
+		<Unit filename="E:/code/c pr/text/text.h">
+			<Option target="c_pr"/>
+		</Unit>
 		<Unit filename="E:/code/c pr/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

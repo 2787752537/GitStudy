@@ -411,6 +411,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/main.c.s
 .PHONY : main.c.s
 
+text/text.obj: text/text.c.obj
+
+.PHONY : text/text.obj
+
+# target to build an object file
+text/text.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/text/text.c.obj
+.PHONY : text/text.c.obj
+
+text/text.i: text/text.c.i
+
+.PHONY : text/text.i
+
+# target to preprocess a source file
+text/text.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/text/text.c.i
+.PHONY : text/text.c.i
+
+text/text.s: text/text.c.s
+
+.PHONY : text/text.s
+
+# target to generate assembly for a file
+text/text.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_pr.dir\build.make CMakeFiles/c_pr.dir/text/text.c.s
+.PHONY : text/text.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -450,6 +477,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... text/text.obj
+	@echo ... text/text.i
+	@echo ... text/text.s
 .PHONY : help
 
 

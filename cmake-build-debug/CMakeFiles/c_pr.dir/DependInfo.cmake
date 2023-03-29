@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/code/c pr/8/struct_text.c" "E:/code/c pr/cmake-build-debug/CMakeFiles/c_pr.dir/8/struct_text.c.obj"
   "E:/code/c pr/algorithm_exercise/1605.c" "E:/code/c pr/cmake-build-debug/CMakeFiles/c_pr.dir/algorithm_exercise/1605.c.obj"
   "E:/code/c pr/main.c" "E:/code/c pr/cmake-build-debug/CMakeFiles/c_pr.dir/main.c.obj"
+  "E:/code/c pr/text/text.c" "E:/code/c pr/cmake-build-debug/CMakeFiles/c_pr.dir/text/text.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -22,6 +22,9 @@ CMakeFiles/c_pr.dir/6/pointer.c.obj: ../6/pointer.h
 CMakeFiles/c_pr.dir/7/recurrence_.c.obj: ../7/recurrence\ .c
 CMakeFiles/c_pr.dir/7/recurrence_.c.obj: ../7/recurrence\ .h
 
+CMakeFiles/c_pr.dir/8/struct_text.c.obj: ../8/struct_text.c
+CMakeFiles/c_pr.dir/8/struct_text.c.obj: ../8/struct_text.h
+
 CMakeFiles/c_pr.dir/algorithm_exercise/1605.c.obj: ../algorithm_exercise/1605.c
 CMakeFiles/c_pr.dir/algorithm_exercise/1605.c.obj: ../algorithm_exercise/1605.h
 
@@ -32,6 +35,10 @@ CMakeFiles/c_pr.dir/main.c.obj: ../4/cycle.h
 CMakeFiles/c_pr.dir/main.c.obj: ../5/array.h
 CMakeFiles/c_pr.dir/main.c.obj: ../6/pointer.h
 CMakeFiles/c_pr.dir/main.c.obj: ../7/recurrence\ .h
+CMakeFiles/c_pr.dir/main.c.obj: ../8/struct_text.h
 CMakeFiles/c_pr.dir/main.c.obj: ../algorithm_exercise/1605.h
 CMakeFiles/c_pr.dir/main.c.obj: ../main.c
+CMakeFiles/c_pr.dir/main.c.obj: ../text/text.h
+
+CMakeFiles/c_pr.dir/text/text.c.obj: ../text/text.c
 

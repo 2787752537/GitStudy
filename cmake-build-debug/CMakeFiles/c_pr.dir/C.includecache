@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-E:/code/c pr/7/recurrence .c
-recurrence .h
-E:/code/c pr/7/recurrence .h
+E:/code/c pr/8/struct_text.c
+struct_text.h
+E:/code/c pr/8/struct_text.h
 
-E:/code/c pr/7/recurrence .h
+E:/code/c pr/8/struct_text.h
 stdio.h
+-
+stdlib.h
+-
+string.h
 -
 
